@@ -22,6 +22,11 @@ body{
     padding: 10px;
 }
 
+@media screen and (max-width: 480px) {
+    #inp{
+        font-size: 12px;
+    }
+    
 #inp:focus{
     width: 50%;
     border: none;
@@ -33,6 +38,10 @@ body{
     padding: 10px;
 }
 
+@media screen and (max-width: 480px) {
+    #inp:focus{
+        font-size: 12px;
+    }
 p.phead{
     font-size: 18px;
     color: #0e34a0;
