@@ -49,7 +49,7 @@ addEventListener('keypress',function(e){
         temp3.innerText ="Max Temp: "+data2.main.temp_max+" C";
         //time
         let d = new Date()
-        time.innerText = d.toLocaleTimeString();
+        time.innerText = "Time: "+d.toLocaleTimeString();
         link.innerText = "Made By Piyush"
         
     }).catch(err=>{
