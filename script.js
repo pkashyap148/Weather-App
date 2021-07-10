@@ -9,6 +9,7 @@ let hum  = document.getElementById('humidity')
 let temp2 = document.getElementById('temp2')
 let temp3 = document.getElementById('temp3')
 let time = document.getElementById('time')
+let link = document.getElementById('link')
 addEventListener('keypress',function(e){
     if(e.key === 'Enter'){
         if(inp.value === ''){
@@ -49,6 +50,7 @@ addEventListener('keypress',function(e){
         //time
         let d = new Date()
         time.innerText = d.toLocaleTimeString();
+        link.innerText = "Made By Piyush"
         
     }).catch(err=>{
         this.alert("Invalid City Name")
